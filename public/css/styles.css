@@ -1,0 +1,82 @@
+body{
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg ,#A683E3 50%,#E4E9FD 50%);
+    min-height:800px ;
+    text-align: center;
+   
+}
+
+h1{
+    color: white; 
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 10px;
+}
+.box{
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow:3px 4px 6px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Anuphan', sans-serif;
+   
+}
+#heading{
+    background-color: #A683E3;
+    text-align: center;
+}
+.item{
+    padding:15px;
+    display: flex;
+    border-width: 0 0 1px 0;
+    border-color: rgba(220, 220, 220, 0.877);
+    border-style: solid;
+    
+}
+
+
+input[type = "checkbox"]{
+    margin-right: 15px;
+    
+    
+}
+
+input[type = "checkbox"]:checked+p{
+    text-decoration: line-through;
+    text-decoration-color:purple;
+    
+}
+
+
+input[type= "text"]{
+    margin: auto;
+    border-width: 0;
+    font-family: 'Anuphan', sans-serif;
+    font-size: large;
+    text-align: center;
+    outline: none;
+}
+p{
+    font-size: large;
+    
+}
+button{
+    border-radius: 50%;
+    background-color: #A683E3;
+    color: white;
+    border-width: 0;
+    font-size: large;
+    height: 30px;
+    width: 30px;
+}
+footer{
+    color: black;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 6s00;
+    font-size: 25px;
+}
+
+
+
+
+
+
